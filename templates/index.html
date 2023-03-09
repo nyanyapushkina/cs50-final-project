@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Main
+{% endblock %}
+
+{% block main %}
+    <form action="/learn" method="post">
+        <div class="form-outline">
+            <textarea class="form-control" id="poem" name="poem" rows="16" placeholder="Type in the poem you want to learn"></textarea>
+          </div>
+        <button class="btn btn-primary btn-lg" type="submit">LEARN</button>
+    </form>
+    <img id="elephant" src="/static/elephant_cropped.png" class="img-responsive" alt="Elephant" width="200" height="200">
+{% endblock %}

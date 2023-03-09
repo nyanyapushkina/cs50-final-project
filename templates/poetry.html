@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quatrain
+{% endblock %}
+
+{% block main %}
+<div class="container d-flex align-items-center justify-content-center flex-wrap">
+    <div class="row">
+        <div class="col-md card-container">
+            <div class="card-flip">
+                <div class="front d-flex flex-column align-items-center justify-content-center">
+                    <img src="/static/cardfacedown.png" alt="Card face down" class="img-fluid">
+                </div>
+                <div class="back d-flex flex-column align-items-center justify-content-center">
+                    <img class="card-img img-fluid" src="/static/cardfaceup.png" alt="Card face up with a piece of the poem">
+                    <div class="card-img-overlay">
+                        <h4> {{ quatrain_1 }} </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md card-container">
+            <div class="card-flip">
+                <div class="front d-flex flex-column align-items-center justify-content-center">
+                    <img src="/static/cardfacedown.png" alt="Card face down" class="img-fluid">
+                </div>
+                <div class="back d-flex flex-column align-items-center justify-content-center">
+                    <img class="card-img img-fluid" src="/static/cardfaceup.png" alt="Card face up with a piece of the poem">
+                    <div class="card-img-overlay">
+                        <h4> {{ quatrain_2 }} </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container d-flex align-items-center justify-content-center flex-wrap">
+    <div class="row">
+        <div class="col-md card-container">
+            <div class="card-flip">
+                <div class="front d-flex flex-column align-items-center justify-content-center">
+                    <img src="/static/cardfacedown.png" alt="Card face down" class="img-fluid">
+                </div>
+                <div class="back d-flex flex-column align-items-center justify-content-center">
+                    <img class="card-img img-fluid" src="/static/cardfaceup.png" alt="Card face up with a piece of the poem">
+                    <div class="card-img-overlay">
+                        <h4> {{ quatrain_3 }} </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md card-container">
+            <div class="card-flip">
+                <div class="front d-flex flex-column align-items-center justify-content-center">
+                    <img src="/static/cardfacedown.png" alt="Card face down" class="img-fluid">
+                </div>
+                <div class="back d-flex flex-column align-items-center justify-content-center">
+                    <img class="card-img img-fluid" src="/static/cardfaceup.png" alt="Card face up with a piece of the poem">
+                    <div class="card-img-overlay">
+                        <h4> {{ quatrain_4 }} </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

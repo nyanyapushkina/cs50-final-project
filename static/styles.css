@@ -1,0 +1,82 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #1746A2 !important;
+}
+
+body {
+    background-color: #5F9DF7;
+    font-weight: bold;
+}
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    color: #1746A2;
+    background-color: #FF731D !important;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.form-control
+{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+}
+
+.card-container {
+    perspective: 700px;
+	white-space: pre;
+	display: grid;
+	margin: 30px 15px;
+}
+
+.card-flip, .card-container {
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+}
+
+.card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-container:hover .card-flip {
+    transform: rotateY(180deg);
+}
+
+.card-flip {
+    display: grid; grid-template: 1fr / 1fr;
+    grid-template-areas: "frontAndBack";
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+}
+
+.front {
+    grid-area: frontAndBack;
+}
+
+.back {
+    grid-area: frontAndBack;
+    transform: rotateY(-180deg);
+}
+
+#howto {
+    margin: auto;
+    width: 780px;
+    padding: 50px;
+    color: #1746A2;
+    text-align: left;
+}
+
+#elephant
+{
+    position: absolute;
+    left: 960px;
+    top: 410px;
+    z-index: 2;
+}
