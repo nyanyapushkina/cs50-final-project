@@ -1,5 +1,6 @@
 # LEARNBYHEART
 #
+#### The project is shown only as an example. It's against CS50 policy: "The essence of all work that you submit to this course must be your own". You can learn more here: https://cs50.harvard.edu/x/2023/honesty/
 #### Video Demo:  https://youtu.be/45-auyDy_P8
 ####
 #### Description:
